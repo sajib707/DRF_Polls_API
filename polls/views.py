@@ -18,3 +18,4 @@ def polls_detail(request, pk):
     "pub_date": poll.pub_date
     }}
     return JsonResponse(data)
+
